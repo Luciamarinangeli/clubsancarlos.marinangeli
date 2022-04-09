@@ -1,0 +1,22 @@
+%vistamobile{
+    @media (max-width: 500px){
+        .divclub{
+            grid-area: divclub;
+        }
+        .fotosclub{
+            grid-area: fotosclub;
+        }
+        .footer{
+            grid-area: footer;
+        }
+        .containergrid{
+            display: grid;
+            grid-template-columns: repeat(1fr 1fr 1fr);
+            grid-template-areas: 
+            "div club div club"
+            "fotos club fotos club"
+            "footer footer";
+        }
+    }
+
+}
